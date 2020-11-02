@@ -195,8 +195,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:hint="IPK"
-                                    android:textSize="14sp"
-                                    android:inputType="number"/>
+                                    android:textSize="14sp"/>
                             </com.google.android.material.textfield.TextInputLayout>
 
                             <Switch
@@ -273,6 +272,36 @@
                                     android:editable="false">
                                 </EditText>
 
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/tilExpect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp">
+
+                                <EditText
+                                    android:id="@+id/etExpect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Expected Salary"
+                                    android:textSize="14sp"
+                                    android:inputType="number"/>
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginLeft="8dp">
+
+                                <TextView
+                                    android:id="@+id/tvPersentase"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="% Peningkatan"
+                                    android:layout_marginRight="8dp">
+                                </TextView>
+
+                                </LinearLayout>
                             </LinearLayout>
                             </LinearLayout>
                         </LinearLayout>

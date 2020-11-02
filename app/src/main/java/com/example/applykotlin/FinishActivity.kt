@@ -14,6 +14,7 @@ class FinishActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_finish)
 
+//Json to Gson String
         val gson = Gson()
 
         val newdata = intent.getStringExtra(DATA_KEY)
@@ -23,6 +24,9 @@ class FinishActivity : AppCompatActivity() {
         }
 
         tvNama.text = dataCandidate?.nama ?: ""
+        tvEmail.text = dataCandidate?.email?: ""
+        tvNoHp.text = dataCandidate?.nohp?: ""
+        tvUniv.text = dataCandidate?.univ?: ""
 
 
     }

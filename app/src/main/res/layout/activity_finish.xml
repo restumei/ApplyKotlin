@@ -8,11 +8,70 @@
     android:orientation="vertical">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat!"
+        android:textSize="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:textColor="#018786">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvNama"
-        android:textSize="14dp">
+        android:layout_margin="8dp"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:hint="Nama"
+        android:textStyle="bold">
     </TextView>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:hint="Email">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNoHp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:hint="No Hp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvUniv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:hint="Uviv">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Berhasil Mendaftar!"
+        android:textSize="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#018786"
+        android:gravity="center">
+    </TextView>
+
+
+
 
 
 </LinearLayout>
